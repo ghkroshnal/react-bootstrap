@@ -1,11 +1,14 @@
-import React from 'react';
-import Intro from '../Sections/Intro';
+import React from "react";
+import Intro from "../Sections/Intro";
+import OurTestimonials from "../Sections/OurTestimonials";
 
 const Testimonials = () => {
   return (
-    <Intro />
-    
-  )
-}
+    <div>
+      <Intro />
+      <OurTestimonials />
+    </div>
+  );
+};
 
-export default Testimonials
+export default Testimonials;

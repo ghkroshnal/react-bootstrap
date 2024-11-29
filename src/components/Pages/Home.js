@@ -1,16 +1,13 @@
-import React from 'react';
-import '../../Assests/css/style.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import Intro from '../Sections/Intro';
-import Companies from '../Sections/Companies';
-import Services from '../Sections/Services';
-import Testimonials from '../Sections/Testimonials';
-import FAQ from '../Sections/FAQ';
-import Portfolio from '../Sections/Portfolio';
-import GetStarted from '../Sections/GetStarted';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
-
+import React from "react";
+import "../../Assests/css/style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Intro from "../Sections/Intro";
+import Companies from "../Sections/Companies";
+import Services from "../Sections/Services";
+import Testimonials from "../Sections/Testimonials";
+import FAQ from "../Sections/FAQ";
+import GetStarted from "../Sections/GetStarted";
+import OurPortfolios from "../Sections/ourPortfolios";
 
 const Home = () => {
   return (
@@ -19,11 +16,11 @@ const Home = () => {
       <Companies />
       <Services />
       <Testimonials />
-      <FAQ /> 
-      <Portfolio />
-      <GetStarted />         
+      <FAQ />
+      <OurPortfolios />
+      <GetStarted />
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

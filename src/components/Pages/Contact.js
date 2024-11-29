@@ -1,15 +1,12 @@
-import React from 'react';
-import Intro from '../Sections/Intro';
-import GetStarted from '../Sections/GetStarted';
+import React from "react";
+import ContactUs from "../Sections/ContactUs";
 
 const Contact = () => {
   return (
-    <>
-    <Intro />
-    <GetStarted />
-    </>
-    
-  )
-}
+    <div>
+      <ContactUs />
+    </div>
+  );
+};
 
-export default Contact
+export default Contact;

@@ -1,10 +1,13 @@
-import React from 'react';
-import Intro from '../Sections/Intro';
+import React from "react";
+import Intro from "../Sections/Intro";
+import OurPortfolios from "../Sections/ourPortfolios";
 
 const Portfolio = () => {
   return (
-    <Intro />
-  )
-}
+    <div>
+      <OurPortfolios />
+    </div>
+  );
+};
 
-export default Portfolio
+export default Portfolio;

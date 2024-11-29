@@ -1,0 +1,40 @@
+.contact-section {
+  background-color: #94f197; /* Full-width background color */
+  color: #fff; /* White text color */
+  padding: 50px 0; /* Add spacing for better visual balance */
+}
+
+.contact-section .section-title h1,
+.contact-section .section-title h2,
+.contact-section .section-title p {
+  color: #fff; /* Ensure all text in the title section is white */
+}
+
+.contact-section .form-control {
+  background-color: #fff; /* White background for input fields */
+  color: #000; /* Black text for contrast */
+  border: none; /* Remove border for cleaner look */
+  padding: 10px;
+}
+
+.contact-section .form-control::placeholder {
+  color: #555; /* Placeholder text color */
+}
+
+.contact-section .form-control:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Subtle focus effect */
+  outline: none; /* Remove default outline */
+}
+
+.contact-section .btn-primary {
+  background-color: #fff; /* Button background color */
+  color: #94f197; /* Button text color */
+  border: 1px solid #94f197; /* Add border matching the background */
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.contact-section .btn-primary:hover {
+  background-color: #94f197; /* Reverse hover effect */
+  color: #fff;
+}
