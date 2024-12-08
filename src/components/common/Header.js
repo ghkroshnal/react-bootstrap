@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import logo from "../../Assests/images/logos/logo.svg";
 import "../../Assests/css/style.css";
 import "../../Assests/css/fontawesome.css";
-
+import "../../scss/style.scss";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function Header() {

@@ -1,15 +1,16 @@
 // MY THEME COLORS
-$palatinate-purple: #392359;
+$dark-purple: #392359;
 $cerulean: #04b2d9;
-$pastel-green: #94f197;
+$light-green: #94f197;
+$dark-green: #037b3a;
 $footer: #151414;
 
 // #######################################
 //		NO NEED TO CUSTOM THE GRAY COLOR IF YOU DO NOT
 // #######################################
 
-$primary: $palatinate-purple;
-$secondary: $pastel-green;
+$primary: $dark-purple;
+$secondary: $light-green;
 
 // ACCORDION OVERRIDES
 $accordion-padding-y: 1.5rem; // LEAVE THE PADDING-Y TO DEFAULT
